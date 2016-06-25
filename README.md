@@ -25,5 +25,5 @@ to actually use as an alarm, you'll probably want a [cron job](http://askubuntu.
 example for every day at 4:30am
 
 ```bash
-30 4 * * * cron
+30 4 * * * python /your/path/to/this/repo/alarm.py
 ```
